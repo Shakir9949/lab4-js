@@ -1,0 +1,89 @@
+/* Destiny 2 Theme - My favorite Game*/
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0c0e14;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid #ffd700;
+}
+
+/* Form Heading */
+.container h2 {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+/* Label Styling */
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    text-align: left;
+    color: #b0a084;
+}
+
+/* Form Inputs */
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #b0a084;
+}
+
+/* Submit Button */
+button {
+    background-color: #ffd700;
+    color: #0c0e14;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #c9a000;
+}
+
+/* Button Layout using Flexbox */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    width: 48%;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #b0a084;
+}

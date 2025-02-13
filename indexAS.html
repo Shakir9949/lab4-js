@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4: Introduction to Functions</title>
+    <link rel="stylesheet" href="style.css"> <!-- Optional - Will use my own CSS from my own previous assignments - Destiny 2 Theme! -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Lab 4 - Introduction to Functions</h1>
+        <br>
+
+        <h2>Enter Your Name:</h2>
+        <input type="text" id="nameInput" placeholder="Your name">
+        <br><br>
+        <button onclick="displayGreeting()">Greet Me</button>
+        <p id="greetingMessage"></p>
+        <br>
+
+        <h2>Add Two Numbers</h2>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+        <br><br>
+        <button onclick="displaySum()">Calculate Sum</button>
+        <p id="result"></p>
+        <br>
+
+        <h2>Local and Global Scope Example</h2>
+        <button onclick="changeValue()">Change Value</button>
+        <p id="output"></p>
+        <br>
+        <h2>Closure Function Example</h2>
+        <button onclick="incrementCount()">Increment Count</button>
+        <p id="closureResult">Count: 0</p>
+    </div>
+</body>
+</html>
